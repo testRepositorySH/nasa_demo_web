@@ -16,7 +16,7 @@ New BDD program for nasa web browser, with;
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 What is new:
-Enhancements on existing BDD program
+Newly Created BDD program
 
 Project Overview:
 All the requirment reflects in feature file which is written in Gherkin language , it easy to read and understand for what the code was implemented.
@@ -39,5 +39,4 @@ Location of Extent report is Target/Extent-report
 What is new:
 New BDD program , with;
 
-- Support for Windows VDI/Laptop Execution in chrome
 - Set up for regression or sanity Execution
