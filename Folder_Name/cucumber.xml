@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Certify Nasa Home page" name="Page Title Validation" time="0">
+<skipped><![CDATA[Given I provide the nasa homepage gov.nasa.com..............................undefined
+When I Land on Homepage.....................................................undefined
+Then I validate the page title..............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
