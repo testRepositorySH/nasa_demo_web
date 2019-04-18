@@ -1,0 +1,22 @@
+@tag
+Feature: Certify Nasa Home page
+  
+  
+  BackGround :
+Finished scenario
+
+  @PageTitle
+  Scenario: Page Title Validation  # nasaLandingPage.feature:9
+    Given nasa url                 # HomePageStepdef.nasa_url()
+    When I Land on Homepage        # HomePageStepdef.i_Land_on_Homepage()
+    Then I validate the page title # HomePageStepdef.i_validate_the_page_title()
+      java.lang.AssertionError: expected [NASA Image and Video Library  ] but found [NASA Image and Video Library]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at org.testng.Assert.assertEquals(Assert.java:200)
+      	at com.stepDef.HomePageStepdef.i_validate_the_page_title(HomePageStepdef.java:36)
+      	at ✽.Then I validate the page title(nasaLandingPage.feature:13)
+
